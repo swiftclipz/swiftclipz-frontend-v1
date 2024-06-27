@@ -1,0 +1,40 @@
+{
+    "author": {
+        "name": "Michael Victor",
+        "github": "https://github.com/YourmixJNR",
+        "twitter": "https://twitter.com/YourmixJNR",
+        "linkedin": "https://linkedin.com/in/yourmixjnr",
+        "email": "radmakson@gmail.com"
+    },
+    "seo": {
+        "title": "swiftclipz",
+        "description": "Seamlessly Save and Share Your Online Discoveries",
+        "twitter": {
+            "handle": "",
+            "site": "",
+            "cardType": ""
+        },
+        "openGraph": {
+            "type": "website",
+            "locale": "en_US",
+            "url": "",
+            "title": "",
+            "description": "",
+            "site_name": "",
+            "images": [
+                {
+                    "url": "",
+                    "width": 1240,
+                    "height": 480,
+                    "alt": ""
+                },
+                {
+                    "url": "",
+                    "width": 1012,
+                    "height": 506,
+                    "alt": ""
+                }
+            ]
+        }
+    }
+}
