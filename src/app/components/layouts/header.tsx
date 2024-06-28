@@ -2,15 +2,53 @@
 import { useState } from "react";
 import SiteLogo from "../logo/logo";
 import { MdMenu, MdClose } from "react-icons/md";
-import DesktopNav from "../navigations/desktop-nav";
-import MobileNav from "../navigations/mobile-nav";
 import LinkButton from "../ui/link-button";
+import Link from "next/link";
+
+const links = [
+  { name: "Why Swiftclipz", path: "#" },
+  { name: "Our Solution", path: "#" },
+  { name: "How It Works", path: "#" },
+  { name: "Get Help", path: "#" },
+];
+
+const DesktopNav = () => {
+  return (
+    <>
+      {links.map(({ name, path }, index) => (
+        <Link
+          key={index}
+          href={path}
+          className="text-sm font-lexend font-medium text-black active:text-customBlack"
+        >
+          {name}
+        </Link>
+      ))}
+    </>
+  );
+};
+
+const MobileNav = () => {
+  return (
+    <div>
+      {links.map(({ name, path }, index) => (
+        <Link
+          key={index}
+          href={path}
+          className="text-sm font-lexend font-medium text-black active:text-customBlack block py-4 border-b border-gray-200"
+        >
+          {name}
+        </Link>
+      ))}
+    </div>
+  );
+};
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <header style={{ zIndex: 50 }} className="fixed w-full">
-      <div className=" flex items-center justify-between bg-white py-4 px-8 xl:px-24">
+    <header style={{ zIndex: 50 }} className="fixed w-full bg-white">
+      <div className=" max-w-[1450px] mx-auto flex items-center justify-between py-4 px-8 xl:px-24">
         <SiteLogo />
         <div className="space-x-10 hidden md:block">
           <DesktopNav />

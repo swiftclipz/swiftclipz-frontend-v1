@@ -4,6 +4,7 @@ import Header from "./components/layouts/header";
 import { lexend } from "./libs/fonts";
 import siteConfig from "./configs/site-config.json";
 import "./globals.css";
+import Footer from "./components/layouts/footer";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -41,8 +42,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={lexend.variable}>
         <Header />
-        {children}
-        </body>
+        <main className="max-w-[1450px] min-h-screen mx-auto pt-20">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
