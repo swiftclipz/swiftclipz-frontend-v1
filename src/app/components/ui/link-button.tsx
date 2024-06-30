@@ -9,7 +9,7 @@ interface LinkButtonProps {
 
 const LinkButton = ({ href, value }: LinkButtonProps) => {
   return (
-    <div className="flex flex-col items-center isolate">
+    <div className="flex flex-col justify-center isolate">
       <Link href={href}>
         <button className="link-button text-black whitespace-nowrap">
           {value}

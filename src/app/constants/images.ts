@@ -3,12 +3,12 @@ import HeroImage from "../assets/images/SwiftclipzHeroImage.png"
 
 export const siteLogo = {
     src: SiteLogo,
-    alt: "Swiftclipz Logo"
+    alt: "Swiftclipz logo"
 }
 
 export const heroImage = {
     src: HeroImage,
-    alt: "Swiftclipz stuff",
+    alt: "Swiftclipz hero image",
 }
 
 const images = {

@@ -1,16 +1,17 @@
-import React from 'react'
-import { Metadata } from 'next'
+import React from "react";
+import { Metadata } from "next";
+import Hero from "./components/homepage/hero";
 
 export const metadata: Metadata = {
-  title: 'Home',
-}
+  title: "Home",
+};
 
 const Home = () => {
   return (
-    <div>
-      hi Home
-    </div>
-  )
-}
+    <>
+      <Hero />
+    </>
+  );
+};
 
-export default Home
+export default Home;
