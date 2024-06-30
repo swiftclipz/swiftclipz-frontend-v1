@@ -48,7 +48,7 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <header style={{ zIndex: 50 }} className="fixed w-full bg-white">
-      <div className=" max-w-[1450px] mx-auto flex items-center justify-between py-4 px-8 xl:px-24">
+      <div className="max-w-[1450px] mx-auto flex items-center justify-between py-4 px-8 xl:px-24">
         <SiteLogo />
         <div className="space-x-10 hidden md:block">
           <DesktopNav />
@@ -58,7 +58,7 @@ const Header = () => {
         </div>
         <div className="md:hidden">
           <MdMenu
-            className="w-8 h-8 cursor-pointer"
+            className="w-8 h-8 cursor-pointer text-customBlack"
             onClick={() => setOpenMenu(!openMenu)}
           />
         </div>
@@ -74,7 +74,7 @@ const Header = () => {
               <div className="flex justify-between">
                 <SiteLogo />
                 <MdClose
-                  className="w-8 h-8 cursor-pointer"
+                  className="w-8 h-8 cursor-pointer text-customBlack"
                   onClick={() => setOpenMenu(!openMenu)}
                 />
               </div>
