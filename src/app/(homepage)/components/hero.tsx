@@ -1,6 +1,6 @@
 import Image from "next/image";
 import images from "../../constants/images";
-import LinkButton from "../ui/link-button";
+import LinkButton from "../../components/ui/link-button";
 
 const Hero = () => {
   return (

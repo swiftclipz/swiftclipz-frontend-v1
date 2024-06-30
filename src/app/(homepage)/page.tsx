@@ -1,7 +1,7 @@
 import React from "react";
 import { Metadata } from "next";
-import Hero from "./components/homepage/hero";
-import Empower from "./components/homepage/empower";
+import Hero from "./components/hero";
+import Empower from "./components/empower";
 
 export const metadata: Metadata = {
   title: "Home",

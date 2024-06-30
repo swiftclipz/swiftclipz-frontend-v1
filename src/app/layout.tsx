@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: `'%s | ${siteConfig.seo.title}'`,
+    template: `%s | ${siteConfig.seo.title}`,
     default: "Swiftclipz",
   },
   description: `${siteConfig.seo.description}`,
