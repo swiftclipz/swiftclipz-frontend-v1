@@ -53,3 +53,15 @@
     background-color: #191919;
     color: #f9f9f9;
 }
+
+.card {
+    align-items: center;
+    background-color: #303030;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: transform 0.3s ease-in;
+}

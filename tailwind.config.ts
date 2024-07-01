@@ -15,6 +15,7 @@ const config: Config = {
         white: "#ffffff",
         black: "#000000",
         customBlack: "#303030",
+        customBlack00: "#202020",
         blue00: "#357abb",
         blue01: "#2484c6",
         bgColor: "#f5f5f5"
