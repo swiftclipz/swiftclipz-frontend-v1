@@ -79,7 +79,9 @@ const Header = () => {
                 />
               </div>
               <MobileNav />
-              <LinkButton href="#" value="Sign In" />
+              <div className="flex items-start">
+                <LinkButton href="#" value="Sign In" />
+              </div>
             </div>
           </div>
         </div>

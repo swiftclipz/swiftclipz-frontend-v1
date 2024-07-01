@@ -29,7 +29,9 @@ const Footer = () => {
     <footer className="font-lexend full py-32 px-8 xl:px-24 bg-customBlack rounded-t-[50px]">
       <div className="max-w-[1450px] mx-auto flex flex-col gap-12 md:flex-row">
         <div className="flex-1 space-y-4 lg:space-y-10 md:basis-60">
-          <SiteLogo />
+          <div className="flex items-start">
+            <SiteLogo />
+          </div>
           <p className="text-white max-w-[23rem]">
             Your Simple Solution for Online Bookmarking and Clipping. Swiftclipz
             helps you store and manage your favorite content from the web.

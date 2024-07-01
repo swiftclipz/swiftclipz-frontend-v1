@@ -14,7 +14,7 @@ const Hero = () => {
           texts, images, and links from the web. Enjoy seamless revisiting and
           sharing of your favorite discoveries.
         </p>
-        <div>
+        <div className="flex items-start">
           <LinkButton href="#" value="Get Started for Free" />
         </div>
       </div>
