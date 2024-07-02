@@ -23,7 +23,9 @@ const ReadyToSimplify = () => {
           <Image src={images.simplicity.src} alt={images.simplicity.alt} />
         </div>
       </div>
-      <hr className="w-full h-[2px] bg-black" />
+     <div className="py-20">
+         <hr className="w-full h-[2px] bg-black" />
+     </div>
     </>
   );
 };
