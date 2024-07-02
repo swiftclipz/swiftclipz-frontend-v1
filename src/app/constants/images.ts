@@ -1,6 +1,7 @@
-import SiteLogo from  "../assets/images/SiteLogo.png"
+import SiteLogo from "../assets/images/SiteLogo.png"
 import HeroImage from "../assets/images/SwiftclipzHeroImage.png"
 import Empowerment from "../assets/images/Empowerment.png"
+import Simplicity from "../assets/images/Simplicity.png"
 
 export const siteLogo = {
     src: SiteLogo,
@@ -17,10 +18,16 @@ export const empowerment = {
     alt: "Empowerment",
 }
 
+export const simplicity = {
+    src: Simplicity,
+    alt: "Simplicity",
+}
+
 const images = {
     siteLogo,
     heroImage,
-    empowerment
+    empowerment,
+    simplicity
 }
 
 export default images
