@@ -6,8 +6,8 @@ import LinkButton from "../ui/link-button";
 import Link from "next/link";
 
 const links = [
-  { name: "Why Swiftclipz", path: "#" },
-  { name: "Our Solution", path: "#" },
+  { name: "Why Swiftclipz", path: "/why-swiftclipz" },
+  { name: "Our Solution", path: "/our-solutions" },
   { name: "How It Works", path: "#" },
   { name: "Get Help", path: "#" },
 ];
