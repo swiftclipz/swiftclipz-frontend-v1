@@ -8,7 +8,7 @@ const Empower = () => {
       <div className="py-14 px-8 bg-blue00 rounded-[2rem] xl:px-24">
         <div className="flex flex-col justify-between gap-12 lg:flex-row lg:items-center order-first lg:order-last">
           <div className="space-y-8 font-lexend lg:max-w-[32rem]">
-            <h1 className="text-3xl text-white font-bold  lg:text-5xl">
+            <h1 className="text-3xl text-white font-bold lg:text-5xl">
               Empower Your Online Journey with Swiftclipz Innovation.
             </h1>
             <p className="text-base text-white lg:text-xl">

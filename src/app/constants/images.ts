@@ -3,6 +3,7 @@ import HeroImage from "../assets/images/SwiftclipzHeroImage.png"
 import Empowerment from "../assets/images/Empowerment.png"
 import Simplicity from "../assets/images/Simplicity.png"
 import Diversity from "../assets/images/diversity.png"
+import Popular from "../assets/images/Popular.png"
 
 export const siteLogo = {
     src: SiteLogo,
@@ -29,12 +30,18 @@ export const diversity = {
     alt: "Diversity",
 }
 
+export const popular = {
+    src: Popular,
+    alt: "Popular",
+}
+
 const images = {
     siteLogo,
     heroImage,
     empowerment,
     simplicity,
-    diversity
+    diversity,
+    popular
 }
 
 export default images
