@@ -47,7 +47,7 @@ const FeatureList = () => {
 
 const SectionTwo = () => {
   return (
-    <div className="flex flex-col justify-between gap-12 py-20 px-8 lg:flex-row lg:items-center xl:px-24">
+    <div className="flex flex-col justify-between gap-12 pt-12 px-8 lg:flex-row lg:items-center xl:px-24">
       <div className=" lg:order-last">
         <FeatureList />
       </div>
