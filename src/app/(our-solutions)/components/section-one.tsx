@@ -11,7 +11,7 @@ interface FeatureListProps {
 const FeatureList = ({ icon, text }: FeatureListProps) => {
   return (
     <div className="w-full font-lexend rounded-[10px] bg-white">
-      <div className="w-full flex flex-col gap-2 p-4">
+      <div className="w-full flex flex-col gap-2 p-4 lg:w-60">
         <span>{icon}</span>
         <span className="text-base">{text}</span>
       </div>
