@@ -5,6 +5,10 @@ import { MdMenu, MdClose } from "react-icons/md";
 import LinkButton from "../ui/link-button";
 import Link from "next/link";
 
+interface MobileNavProps {
+  onClick: () => void;
+}
+
 const links = [
   { name: "Why Swiftclipz", path: "/why-swiftclipz" },
   { name: "Our Solution", path: "/our-solutions" },
@@ -28,7 +32,7 @@ const DesktopNav = () => {
   );
 };
 
-const MobileNav = () => {
+const MobileNav = ({ onClick }: MobileNavProps) => {
   return (
     <div>
       {links.map(({ name, path }, index) => (
@@ -36,6 +40,7 @@ const MobileNav = () => {
           key={index}
           href={path}
           className="text-sm font-lexend font-medium text-black active:text-customBlack block py-4 border-b border-gray-200"
+          onClick={onClick}
         >
           {name}
         </Link>
@@ -46,6 +51,11 @@ const MobileNav = () => {
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
+  const handleCloseMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
     <header style={{ zIndex: 50 }} className="fixed w-full bg-white">
       <div className="max-w-[1450px] mx-auto flex items-center justify-between py-4 px-8 xl:px-24">
@@ -59,7 +69,7 @@ const Header = () => {
         <div className="md:hidden">
           <MdMenu
             className="w-8 h-8 cursor-pointer text-customBlack"
-            onClick={() => setOpenMenu(!openMenu)}
+            onClick={handleCloseMenu}
           />
         </div>
 
@@ -72,13 +82,15 @@ const Header = () => {
           <div className="w-11/12 h-full bg-white px-6 py-6 flex flex-col justify-between">
             <div className="flex flex-col gap-8">
               <div className="flex justify-between">
-                <SiteLogo />
+                <div onClick={handleCloseMenu}>
+                  <SiteLogo />
+                </div>
                 <MdClose
                   className="w-8 h-8 cursor-pointer text-customBlack"
-                  onClick={() => setOpenMenu(!openMenu)}
+                  onClick={handleCloseMenu}
                 />
               </div>
-              <MobileNav />
+              <MobileNav onClick={handleCloseMenu} />
               <div className="flex items-start">
                 <LinkButton href="#" value="Sign In" />
               </div>
