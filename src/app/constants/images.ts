@@ -4,7 +4,6 @@ import Empowerment from "../assets/images/Empowerment.png"
 import Simplicity from "../assets/images/Simplicity.png"
 import Diversity from "../assets/images/diversity.png"
 import Popular from "../assets/images/Popular.png"
-import StepOneImage from "../assets/images/StepOneImage.png"
 
 export const siteLogo = {
     src: SiteLogo,
@@ -36,19 +35,13 @@ export const popular = {
     alt: "Popular",
 }
 
-export const stepOneImage = {
-    src: StepOneImage,
-    alt: "Step one image",
-}
-
 const images = {
     siteLogo,
     heroImage,
     empowerment,
     simplicity,
     diversity,
-    popular,
-    stepOneImage
+    popular
 }
 
 export default images
