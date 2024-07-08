@@ -8,7 +8,7 @@ import Link from "next/link";
 const links = [
   { name: "Why Swiftclipz", path: "/why-swiftclipz" },
   { name: "Our Solution", path: "/our-solutions" },
-  { name: "How It Works", path: "#" },
+  { name: "How It Works", path: "how-it-works" },
   { name: "Get Help", path: "#" },
 ];
 

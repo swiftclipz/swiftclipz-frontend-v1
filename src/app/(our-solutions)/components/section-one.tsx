@@ -21,7 +21,7 @@ const FeatureList = ({ icon, text }: FeatureListProps) => {
 
 const SectionOne = () => {
   return (
-    <div className="space-y-20 py-20 px-8 xl:px-24">
+    <div className="space-y-20 font-lexend py-20 px-8 xl:px-24">
       <h2 className="text-3xl font-bold text-center">
         Powerfully Customized Solutions for Everyone
       </h2>

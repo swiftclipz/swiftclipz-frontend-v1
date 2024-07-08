@@ -1,10 +1,13 @@
 import React from 'react'
+import DiscoverSwiftclipz from '../components/discover-swiftclipz'
+import Steps from '../components/steps'
 
 const Page = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <DiscoverSwiftclipz />
+      <Steps />
+    </>
   )
 }
 
