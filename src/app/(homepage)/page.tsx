@@ -6,7 +6,7 @@ import Streamline from "./components/streamline";
 import GetStarted from "../components/get-started";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Save And Organize Clips From Various Online Sources",
 };
 
 const Home = () => {

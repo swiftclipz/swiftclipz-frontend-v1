@@ -4,7 +4,7 @@ import Streamline from "../components/streamline";
 import GetStarted from "@/app/components/get-started";
 
 export const metadata: Metadata = {
-  title: "Simplify your online contents",
+  title: "Simplify Your Online Contents",
 };
 
 const Page = () => {
