@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   applicationName: "Swiftclipz",
   referrer: "origin-when-cross-origin",
-  keywords: ["Svae", "Share", "Online"],
+  keywords: ["Save", "Share", "Online"],
   authors: [
     { name: `${siteConfig.author.name}`, url: `${siteConfig.author.github}` },
   ],
