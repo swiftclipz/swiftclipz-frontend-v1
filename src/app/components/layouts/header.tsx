@@ -9,7 +9,7 @@ const links = [
   { name: "Why Swiftclipz", path: "/why-swiftclipz" },
   { name: "Our Solution", path: "/our-solutions" },
   { name: "How It Works", path: "#" },
-  { name: "Get Help", path: "#" },
+  { name: "Get Help", path: "/get-help" },
 ];
 
 const DesktopNav = () => {
