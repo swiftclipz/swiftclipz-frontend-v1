@@ -1,67 +1,68 @@
 /* custom-styles CSS */
 
 .link-button {
-    align-items: center;
-    background-color: #ffffff;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: #000000;
-    cursor: pointer;
-    display: flex;
-    font-family: 'Lexend', sans-serif;
-    font-size: 16px;
-    height: 48px;
-    justify-content: center;
-    line-height: 24px;
-    max-width: 100%;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
 }
 
 .link-button:after {
-    background-color: #191919;
-    border-radius: 10px;
-    content: "";
-    display: block;
-    height: 48px;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    top: -1px;
-    transform: translate(8px, 3px);
-    transition: transform .2s ease-out;
-    z-index: -1;
+  background-color: #191919;
+  border-radius: 10px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -1px;
+  transform: translate(8px, 3px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
 }
 
 .link-button:hover:after {
-    transform: translate(0, 0);
+  transform: translate(0, 0);
 }
 
 .link-button:active {
-    background-color: #191919;
-    outline: 0;
+  background-color: #191919;
+  outline: 0;
 }
 
 .link-button:hover {
-    outline: 0;
-    background-color: #191919;
-    color: #f9f9f9;
+  outline: 0;
+  background-color: #191919;
+  color: #f9f9f9;
 }
 
 .card {
-    align-items: center;
-    background-color: #303030;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-family: 'Lexend', sans-serif;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    transition: transform 0.3s ease-in;
+  align-items: center;
+  background-color: #303030;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: transform 0.3s ease-in;
 }

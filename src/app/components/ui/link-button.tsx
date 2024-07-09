@@ -11,9 +11,7 @@ const LinkButton = ({ href, value }: LinkButtonProps) => {
   return (
     <div className="flex flex-col justify-center isolate">
       <Link href={href}>
-        <button className="link-button text-black whitespace-nowrap">
-          {value}
-        </button>
+        <button className="link-button">{value}</button>
       </Link>
     </div>
   );
