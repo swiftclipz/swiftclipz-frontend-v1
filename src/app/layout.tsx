@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Viewport } from "next";
 import Header from "./components/layouts/header";
-import { lexend } from "./libs/fonts";
+import { lexend, nunito } from "./libs/fonts";
 import siteConfig from "./configs/site-config.json";
 import "./globals.css";
 import Footer from "./components/layouts/footer";
@@ -40,7 +40,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={lexend.variable}>
+      <body className={`${lexend.variable} ${nunito.variable} font-nunito`}>
         <Header />
         <main className="max-w-[1450px] min-h-screen mx-auto pt-20">
           {children}

@@ -31,12 +31,12 @@ const features = [
 
 const FeatureList = () => {
   return (
-    <div className="flex flex-col gap-8 font-lexend">
+    <div className="flex flex-col gap-8">
       {features.map(({ icon, heading, text }, index) => (
         <div key={index} className="flex flex-col gap-5 lg:flex-row">
           <span>{icon}</span>
           <div className="w-full space-y-3 lg:w-[32rem]">
-            <h5 className="text-2xl font-medium">{heading}</h5>
+            <h5 className="text-2xl font-medium font-lexend">{heading}</h5>
             <p className="text-customBlack">{text}</p>
           </div>
         </div>

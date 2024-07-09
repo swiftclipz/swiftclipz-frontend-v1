@@ -6,8 +6,8 @@ const ReadyToSimplify = () => {
   return (
     <>
       <div className="flex flex-col justify-between gap-12 pt-20 px-8 lg:flex-row lg:items-center xl:px-24">
-        <div className="space-y-8 font-lexend lg:max-w-[32rem]">
-          <h1 className="text-3xl text-black font-bold lg:text-5xl">
+        <div className="space-y-8 lg:max-w-[32rem]">
+          <h1 className="text-3xl font-lexend text-black font-bold lg:text-5xl">
             Ready to Simplify Your Online Experience?
           </h1>
           <p className="text-base text-[#202020] lg:text-xl">
@@ -23,9 +23,9 @@ const ReadyToSimplify = () => {
           <Image src={images.simplicity.src} alt={images.simplicity.alt} />
         </div>
       </div>
-     <div className="py-20">
-         <hr className="w-full h-[2px] bg-black" />
-     </div>
+      <div className="py-20">
+        <hr className="w-full h-[2px] bg-black" />
+      </div>
     </>
   );
 };

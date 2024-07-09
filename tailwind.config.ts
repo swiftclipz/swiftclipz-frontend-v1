@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        lexend: ['var(--font-lexend)'],
+        lexend: ["var(--font-lexend)"],
+        nunito: ["var(--font-nunito)"],
       },
       colors: {
         white: "#ffffff",
@@ -18,8 +19,8 @@ const config: Config = {
         customBlack00: "#202020",
         blue00: "#357abb",
         blue01: "#2484c6",
-        bgColor: "#f5f5f5"
-      }
+        bgColor: "#f5f5f5",
+      },
     },
   },
   plugins: [],

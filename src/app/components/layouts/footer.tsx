@@ -26,7 +26,7 @@ const Links = ({ data }: LinksProps) => {
 
 const Footer = () => {
   return (
-    <footer className="font-lexend full py-32 px-8 xl:px-24 bg-customBlack rounded-t-[50px]">
+    <footer className="full py-32 px-8 xl:px-24 bg-customBlack rounded-t-[50px]">
       <div className="max-w-[1450px] mx-auto flex flex-col gap-12 md:flex-row">
         <div className="flex-1 space-y-4 lg:space-y-10 md:basis-60">
           <div className="flex items-start">
@@ -49,7 +49,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex-1 space-y-5 md:p-[15px]">
-          <h4 className="text-3xl text-white font-bold">Resources</h4>
+          <h4 className="font-lexend text-3xl text-white font-bold">
+            Resources
+          </h4>
           <Links
             data={[
               { name: "Support", path: "#" },
@@ -60,7 +62,9 @@ const Footer = () => {
           />
         </div>
         <div className="flex-1 space-y-5 md:p-[15px]">
-          <h4 className="text-3xl text-white font-bold">Useful Links</h4>
+          <h4 className="font-lexend text-3xl text-white font-bold">
+            Useful Links
+          </h4>
           <Links
             data={[
               { name: "Terms", path: "#" },
