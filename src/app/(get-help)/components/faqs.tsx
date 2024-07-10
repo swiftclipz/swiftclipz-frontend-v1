@@ -51,15 +51,15 @@ const FaqList = ({ isActive, onToggle }: FaqListProps) => {
     <div className="font-lexend">
       {faq.map(({ question, answer }, index) => (
         <div className="py-5 border-b border-customBlack00" key={index}>
-          <p
-            className={`text-black text-lg md:text-xl font-lexend font-medium flex items-center justify-between gap-10 transition-all cursor-pointer`}
+          <div
+            className={`text-black text-lg md:text-xl font-lexend font-medium flex items-center justify-between gadiv-10 transition-all cursor-pointer`}
             onClick={() => onToggle(index)}
           >
             {question}{" "}
             <div className="min-w-5">
               {isActive === index ? <FaMinusSquare /> : <FaPlusSquare />}
             </div>
-          </p>
+          </div>
           <p
             className={`overflow-hidden transition-all duration-300 pr-5 text-customBlack00 ${
               isActive === index ? "my-4 max-h-[200px]" : "max-h-0"

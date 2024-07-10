@@ -1,6 +1,5 @@
 import React from "react";
-import dropdown from "@/app/assets/svgs/dropdown.svg";
-import Image from "next/image";
+import Dropdown from "../../../app/constants/svgs/dropdown";
 
 const SupportForm = () => {
   return (
@@ -57,7 +56,7 @@ const SupportForm = () => {
           </select>
           <div className="absolute top-[50%] -translate-y-[50%] right-4 flex items-center gap-2">
             <span className="block w-[1px] h-[38px] bg-[#BFBFBF]"></span>
-            <Image src={dropdown} alt="dropdown" />
+            <Dropdown />
           </div>
         </div>
       </div>
