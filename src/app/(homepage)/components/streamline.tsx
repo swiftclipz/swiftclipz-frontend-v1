@@ -6,7 +6,7 @@ import Share from "../../constants/svgs/share";
 
 const Streamline = () => {
   return (
-    <div className="space-y-16 py-4 px-8 xl:px-24">
+    <div className="font-lexend space-y-16 py-4 px-8 xl:px-24">
       <h2 className="text-3xl font-bold lg:w-2/6">
         Streamline Your Online Saves with Swiftclipz.
       </h2>
