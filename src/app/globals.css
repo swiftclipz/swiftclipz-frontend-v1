@@ -4,8 +4,11 @@
 
 
 /* Base styles */
-body {
-  background: #f5f5f5;
+* {
+  font-family: "Lexend", "san-serif";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body a {
